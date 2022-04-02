@@ -58,7 +58,7 @@ Well, here’s a diagram of what this kind of dead zone looks like. The circle r
 (it’s the same as the circular opening in your controller that the stick is seated in), and the red shaded area represents
  where the dead zone will kick in and cancel out your input:
  
-![Image](images/axial-deadzone.png)
+![Image](images/axial-deadzone.svg)
 
 In practice, this implementation feels _very bad_, and you’ll 
 notice it whenever you try to rotate the stick in a sweeping motion 
@@ -85,7 +85,7 @@ This is _much_ better. For many games, you could probably ship
  with this; in fact, this method is the most common one I’ve seen people
  propose recently. Here’s what that dead zone looks like on the stick:
  
-![Image](images/radial-deadzone.png)
+![Image](images/radial-deadzone.svg)
 
 When we think about dead zones, this is usually the kind of thing  we’re envisioning:
  a very small area in the center of the stick within which input is ignored.
@@ -106,7 +106,7 @@ The problem with the previous method is that it’s clipping the input vector be
  
 Here’s an illustration:
 
-![Image](images/precision-problem.png)
+![Image](images/precision-problem.svg)
 
 The gradient indicates the strength of the resulting input (after the dead zone is applied).
  Note that the edge of the dead zone is clearly visible: as you push the stick away from the center, the gradient value
