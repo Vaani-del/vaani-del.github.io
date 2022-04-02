@@ -2,6 +2,7 @@
 
 ## NOT MINE
 Previously from [here](www.third-helix.com/2013/04/12/doing-thumbstick-dead-zones-right.html) and [archived here](https://web.archive.org/web/20141025070920/https://www.third-helix.com/2013/04/12/doing-thumbstick-dead-zones-right.html)
+**All images on this page have been recreated by me as vector files**
 
 ## Page
 As OUYA Kickstarter backers begin receiving their dev units, I’ve seen several discussions pop up about thumbstick dead zones.
