@@ -1,3 +1,3 @@
 ## Bullshit coming soon
 
-For now, [Controller Deadzones](controllerdeadzones/index.md)
+For now, [Controller Deadzones](ControllerDeadzones)
