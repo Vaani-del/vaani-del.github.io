@@ -127,7 +127,7 @@ Fortunately, the high-precision problem is also very easy to fix. We just need t
 
 Here’s what the adjusted dead zone looks like:
 
-![Image](images/scaled-radial-deadzone.png)
+![Image](images/scaled-radial-deadzone.svg)
 
 Notice that there’s no longer a visible edge: as you push the stick away from the center,
  the gradient value changes smoothly while the dead zone is still preserved.
